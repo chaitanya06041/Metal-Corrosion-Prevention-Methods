@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrosion Prevention of Metals</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+        <h1 id="head">Corrosion Prevention of Metals</h1>
+        <form>
+            <div>
+                <label for="metal">Select a Metal</label>
+                <select id="metal">
+                    <option>Select</option>
+                    <option>Carbon Steel</option>
+                    <option>Mild Steel</option>
+                    <option>Alloy Steel</option>
+                    <option>Stainless Steel</option>
+                    <option>Tool Steel</option>
+                    <option>Spring Steel</option>
+                    <option>Iron</option>
+                    <option>Aluminium</option>
+                    <option>Copper</option>
+                </select>
+            </div>
+            <div id="container_2">
+                <div>
+                    <p>Select the Environment</p>
+                </div>
+                <div id="container_2_2">
+                    <input type="radio" id="0_2" class="pH" name="pH" value="0-2"><label for="0_2">0-2 PH</label>
+                    <input type="radio" id="2_4" class="pH" name="pH" value="2-4"><label for="2_4">2-4 PH</label>
+                    <input type="radio" id="4_6" class="pH" name="pH" value="4-6"><label for="4_6">4-6 PH</label>
+                    <input type="radio" id="7" class="pH" name="pH" value="7"><label for="7">7 PH</label>
+                    <input type="radio" id="7_9" class="pH" name="pH" value="7-9"><label for="7_9">7-9 PH</label>
+                    <input type="radio" id="9_11" class="pH" name="pH" value="9-11"><label for="9_11">9-11 PH</label>
+                    <input type="radio" id="11_13" class="pH" name="pH" value="11-13"><label for="11_13">11-13 PH</label>
+                    <input type="radio" id="13_more" class="pH" name="pH" value=">13"><label for="13_more">>13 PH</label>
+                </div>
+            </div>
+            <div id="container_3">
+                <button type="submit" id="sbmt_btn">Search</button>
+            </div>
+        </form>
+        <div class="result">
+            <div class="result_2"></div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
